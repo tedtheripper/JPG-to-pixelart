@@ -79,7 +79,6 @@ if __name__ == "__main__":
         path = sys.argv[1]
     else:
         path = "input.jpeg"
-    # path = "~/Pictures/matma_kolos2_res/1.jpg"
     pix_creator = PixelartCreator(8, path)
     err = pix_creator.get_result()
     if err < 0:
